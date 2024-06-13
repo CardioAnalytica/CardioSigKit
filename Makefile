@@ -40,7 +40,7 @@ clean: banner ## Clean all build, cache, compiled and temporary files
 	rm -rf build cython_debug
 
 clean-uninstall: ## Uninstall the library
-	pip uninstall ecgdatakit --yes
+	pip uninstall cardiosigkit --yes
 
 banner:
 	@echo "-------------------------------------------------------------"
